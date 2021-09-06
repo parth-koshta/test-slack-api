@@ -1,0 +1,19 @@
+{
+  "name": "node_express_boilerplate",
+  "version": "1.0.0",
+  "description": "Nodejs expressjs boilerplate",
+  "main": "index.js",
+  "author": "Parth",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.6.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
